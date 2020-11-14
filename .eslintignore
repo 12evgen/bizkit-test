@@ -1,0 +1,8 @@
+# NPM
+node_modules/
+
+# Build
+build/
+public/
+src/pages/Meeting/**
+src/pages/MyAgenda/**

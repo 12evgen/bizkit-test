@@ -1,0 +1,13 @@
+.account-nav__item {
+  color: #000;
+  text-decoration: none;
+
+  &.active {
+    display: flex;
+    background-color: #92c7fc;
+
+    span {
+      font-weight: 500;
+    }
+  }
+}
