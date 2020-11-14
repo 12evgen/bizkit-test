@@ -19,6 +19,7 @@ const AppRoot = observer(() => {
   const preloader = document.querySelector('.site-preloader');
 
   // preloader
+  /*
   if (!userStore.isLoading && preloader) {
     preloader.addEventListener('transitionend', event => {
       if (event.propertyName === 'opacity' && preloader.parentNode) {
@@ -27,6 +28,7 @@ const AppRoot = observer(() => {
     });
     preloader.classList.add('site-preloader__fade');
   }
+  */
 
   return (
     <Localizer locale={languageStore.language}>
