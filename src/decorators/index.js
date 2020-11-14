@@ -16,7 +16,7 @@ import theme from '../theme';
 
 const AppRoot = observer(() => {
   const {languageStore, userStore} = React.useContext(AppContext);
-  const preloader = document.querySelector('.site-preloader');
+  // const preloader = document.querySelector('.site-preloader');
 
   // preloader
   /*
